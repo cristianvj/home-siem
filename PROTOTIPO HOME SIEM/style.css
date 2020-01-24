@@ -1,0 +1,63 @@
+body{
+	width: 100%;
+  height: 500px;
+	background-image: url(img/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contenedor-imagen{
+	position: relative;
+	padding: 0px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: -18px;
+  right: 0px;
+  background-color: rgba(9, 151, 16, 0.8);
+  color: white;
+  padding-left: 20px;
+	padding-right: 20px;
+}
+
+.carousel .carousel-item {
+	width: 400px !important;
+}
+
+nav{
+	height: 85px;
+}
+
+.titulo {
+	font-size: 6em;
+	font-weight: bold;
+	margin-top: 0.3em;
+}
+
+.tabs{
+	background-color: rgba(224, 235, 232, 0.9) !important;
+}
+
+.tabs .tab{
+	text-transform: none;
+	font-weight: bold;
+}
+
+.tabs .tab a {
+	color: #388E3C !important;
+	font-size: 1.2em;
+}
+
+.tabs .indicator {
+	background-color: #388E3C !important;
+}
+
+.row-tabs{
+	margin-top: 2em;
+}
+
+.row-tab-contenido{
+	padding-top: 0em !important;
+	margin-top: 0em !important;
+}
